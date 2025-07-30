@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Commercial space</title>
+<meta charset="utf-8"/>
+<meta content="Your site's description should be here" name="description"/>
+<meta content="Your site's keywords should be here" name="keywords"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" rel="stylesheet"/>
+<link href="css/A1style.css" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+<style>
+    /* ყველა ოვერლეი თავიდან დამალული */
+[class^="over_"] {
+  display: none;
+  pointer-events: none; /* თავიდანვე ისე რომ არ დაბლოკოს მაუსი */
+  z-index: 10;
+}
+
+/* როცა მაუსი მიდის ბინაზე, შესაბამისი ოვერლეი გამოჩნდება */
+.a-m5:hover .over_a-m5,
+.a-m4:hover .over_a-m4,
+.a-m3:hover .over_a-m3 {
+  display: block;
+}
+.responsive-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  position: relative;
+}
+
+/* Default – სრულ ზომაზე */
+.a-blocks {
+  transform: scale(1);
+  transform-origin: top center;
+  transition: transform 0.3s ease;
+}
+
+/* მასშტაბირება ეკრანის ზომის მიხედვით */
+ @media (max-width: 1200px) {
+  .a-blocks {
+    transform: scale(0.7);
+    transform-origin: top center;
+  }
+}
+@media (max-width: 768px) {
+  .a-blocks {
+    transform: scale(0.5);
+  }
+}
+@media (max-width: 446px) {
+  .a-blocks {
+    transform: scale(0.4);
+  }
+}
+
+
+  </style>
+  
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="container-fluid">
+<a class="navbar-brand" href="#"><img alt="" src="img/logo.png" style="width: 100px;"/></a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link active-block" href="#">A Block</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="B-Block.html">B block</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="C-Block.html">C Block</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="floor-buttons"><a class="floor-btn" href="A-Block.html?floor=11">11 Floor</a><a class="floor-btn" href="A-Block.html?floor=10">10 Floor</a><a class="floor-btn" href="A-Block.html?floor=9">9 Floor</a><a class="floor-btn" href="A-Block.html?floor=8">8 Floor</a><a class="floor-btn" href="A-Block.html?floor=7">7 Floor</a><a class="floor-btn" href="A-Block.html?floor=6">6 Floor</a><a class="floor-btn" href="A-Block.html?floor=5">5 Floor</a><a class="floor-btn" href="A-Block.html?floor=4">4 Floor</a><a class="floor-btn" href="A-Block.html?floor=3">3 Floor</a><a class="floor-btn" href="A-Block.html?floor=2">2 Floor</a><a class="floor-btn active" href="ABshop.html">1 Floor</a><a class="floor-btn" href="A-Block.html?floor=0">0 Floor</a></div>
+<body>
+  <div class="responsive-wrapper">
+<div class="a-blocks" style="zoom: 0.3;">
+<div class="a-001">
+<div class="l-constrained group">
+<div class="a-m5">
+<div class="lock_am5g-holder">
+<div class="lock_am5r-holder" style="z-index: 99999999999999 !important;">
+<img alt="" class="lock_am5e lock-toggle" data-green="img/ABimages/A1images/lock_am5g.png" data-yellow="img/ABimages/A1images/lock_am5e.png" height="140" src="img/ABimages/A1images/lock_am5g.png" width="111"/>
+</div>
+</div>
+<img alt="" class="over_a-m5" height="987" src="img/ABimages/A1images/over_a-m5.png" width="730"/>
+</div>
+<div class="col">
+<div class="a-m4">
+<div class="lock_am4g-holder">
+<div class="lock_am4r-holder" style="z-index: 99999999999999 !important;">
+<img alt="" class="lock_am4e lock-toggle" data-green="img/ABimages/A1images/lock_am4g.png" data-yellow="img/ABimages/A1images/lock_am4e.png" height="138" src="img/ABimages/A1images/lock_am4g.png" width="110"/>
+</div>
+</div>
+<img alt="" class="over_a-m4" height="1192" src="img/ABimages/A1images/over_a-m4.png" width="1206"/>
+</div>
+<div class="a-m3">
+<div class="lock_am3g-holder">
+<div class="lock_am3r-holder" style="z-index: 99999999999999 !important;">
+<img alt="" class="lock_am3e lock-toggle" data-green="img/ABimages/A1images/lock_am4g.png" data-yellow="img/ABimages/A1images/lock_am4e.png" height="139" src="img/ABimages/A1images/lock_am4g.png" width="111"/>
+</div>
+</div>
+<img alt="" class="over_a-m3" height="1164" src="img/ABimages/A1images/over_a-m3.png" width="1208"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- SweetAlert2 CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const locks = document.querySelectorAll('.lock-toggle');
+
+    locks.forEach(function(lock) {
+      // საწყისი სტატუსი
+      lock.dataset.status = 'free';
+
+      lock.addEventListener('click', function () {
+        const greenSrc = this.dataset.green;
+        const yellowSrc = this.dataset.yellow;
+        const status = this.dataset.status;
+
+        if (status === 'free') {
+          this.src = yellowSrc;
+          this.dataset.status = 'reserved';
+
+          // ალერტი დაჯავშნულია
+          Swal.fire({
+            icon: 'success',
+            title: 'ბინა დაჯავშნულია 48 საათით!',
+            text: 'ჯავშნის გასაგრძელებლად დაუკავშირდით კომპანიას.',
+            timer: 3000,
+            showConfirmButton: false
+          });
+
+        } else if (status === 'reserved') {
+          this.src = greenSrc;
+          this.dataset.status = 'free';
+
+          // ალერტი გაუქმდა
+          Swal.fire({
+            icon: 'info',
+            title: 'ბინა თავისუფალია',
+            text: 'თქვენ გააუქმეთ ჯავშანი.',
+            timer: 3000,
+            showConfirmButton: false
+          });
+        }
+      });
+    });
+  });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script crossorigin="anonymous" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

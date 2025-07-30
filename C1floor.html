@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+  <head>
+    <title>C Block Lock Toggle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/C1style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+   <style>
+      @media (max-width: 1200px) {
+  .c-blocks {
+    transform: scale(0.6);
+    transform-origin: top center;
+  }
+}
+@media (max-width: 768px) {
+  .c-blocks {
+    transform: scale(0.4);
+  }
+}
+@media (max-width: 446px) {
+  .c-blocks {
+    transform: scale(0.3);
+  }
+}
+   </style>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img style="width: 100px;" src="img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="A-Block.html">A Block</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="B-Block.html">B block</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active-block" href="C-Block.html">C Block</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <div class="floor-buttons">
+  <button class="floor-btn " data-floor="11"><a href="C11Block.html">11 Floor </a></button>
+  <button class="floor-btn" onclick="goToFloor(9)">9 Floor</button>
+  <button class="floor-btn" onclick="goToFloor(8)">8 Floor</button>
+  <button class="floor-btn" onclick="goToFloor(7)">7 Floor</button>
+  <button class="floor-btn" onclick="goToFloor(6)">6 Floor</button>
+  <button class="floor-btn" onclick="goToFloor(5)">5 Floor</button>
+  <button class="floor-btn" onclick="goToFloor(4)">4 Floor</button>
+  <button class="floor-btn" onclick="goToFloor(3)">3 Floor</button>
+  <button class="floor-btn" onclick="goToFloor(2)">2 Floor</button>
+  <a  class="floor-btn active" href="C1floor.html"><button class="floor-btn active" data-floor="1">1 Floor</button></a>
+  <button class="floor-btn" data-floor="0">0 Floor</button>
+</div>
+   <div style="zoom: 0.3;" class="c-blocks">
+  <div class="c-001">
+    <div class="ower-cm2-holder">
+      <div class="lock_cm2g-holder">
+        <img 
+          class="lock_cm2 lock-toggle" 
+          src="img/CBimages/C1images/lock_cm2g.png" 
+          alt="Lock" 
+          data-green="img/CBimages/C1images/lock_cm2g.png"
+          data-yellow="img/CBimages/C1images/lock_cm2e.png"
+        >
+        <div class="ower-cm2-overlay">
+         
+        </div> <!-- ✅ ჰოვერისთვის დამატება -->
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const locks = document.querySelectorAll('.lock-toggle');
+
+    locks.forEach(function (lock) {
+      lock.dataset.status = 'free'; // საწყისი მდგომარეობა
+
+      lock.addEventListener('click', function () {
+        const green = this.dataset.green;
+        const yellow = this.dataset.yellow;
+
+        if (this.dataset.status === 'free') {
+          this.src = yellow;
+          this.dataset.status = 'reserved';
+
+          Swal.fire({
+            icon: 'success',
+            title: 'დაჯავშნილია!',
+            text: 'ბინა წარმატებით დაეჯავშნა.',
+            timer: 2000,
+            showConfirmButton: false
+          });
+
+        } else {
+          this.src = green;
+          this.dataset.status = 'free';
+
+          Swal.fire({
+            icon: 'info',
+            title: 'თავისუფალია',
+            text: 'ბინა ხელახლა გახდა თავისუფალი.',
+            timer: 2000,
+            showConfirmButton: false
+          });
+        }
+      });
+    });
+  });
+</script>
+
+
+    <script>
+  function goToFloor(floorNumber) {
+    window.location.href = `C-Block.html?floor=${floorNumber}`;
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+ 
+    <script src="js/floor.js"></script> 
+  </body>
+</html>

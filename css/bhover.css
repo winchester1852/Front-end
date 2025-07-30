@@ -1,0 +1,22 @@
+/* ყვითელი ოვერლეები საწყისად გამოუჩნებელი */
+[class^="ower_b10-"] {
+  opacity: 0;
+  
+  pointer-events: none; /* არ შეგიშალოს ხელს კლიკზე */
+}
+
+/* მაუსის მიტანისას გამოჩნდეს */
+.b-010 .b-97:hover .ower_b10-b97,
+.b-010 .b-98:hover .ower_b10-b98,
+.b-010 .b-99:hover .ower_b10-b99,
+.b-010 .b-100:hover .ower_b10-b100,
+.b-010 .b-101:hover .ower_b10-b101,
+.b-010 .b-102:hover .ower_b10-b102,
+.b-010 .b-103:hover .ower_b10-b103,
+.b-010 .b-104:hover .ower_b10-b104,
+.b-010 .b-105:hover .ower_b10-b105,
+.b-010 .b-106:hover .ower_b10-b106,
+.b-010 .b-107:hover .ower_b10-b107,
+.b-010 .b-108:hover .ower_b10-b108 {
+  opacity: 1;
+}

@@ -1,0 +1,568 @@
+@charset "UTF-8";
+/**
+* Eric Meyer's Reset CSS v2.0
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.groupy:before,
+.groupy:after {
+  content: " ";
+  display: table;
+}
+
+.groupy:after {
+  clear: both;
+}
+
+.groupy {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+
+.b-blocks {
+ position: relative;
+  
+ 
+}
+.b-010 {
+  padding: 3px 0 25px;
+  position: relative;
+  width: 100%; /* 2980px / 2980px = 100% */
+  background: url(../img/BBimages/begr-b10.png) no-repeat center 0;
+
+ 
+}
+.l-constrained {
+  margin: 0 auto;
+  padding: 0 0 0 2px;
+  position: relative;
+  width: 2942px;
+}
+.wrappery {
+  float: left !important;
+  height: 1702px !important;
+  position: relative !important;
+  width: 1404px !important;
+}
+.b-108 {
+  height: 897px;
+  left: 50%;
+  position: absolute;
+  top: 805px;
+  width: 687px;
+  margin-left: -702px;
+}
+.lock_b108g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 32px;
+  width: 60px;
+  
+  margin-left: -233.5px;
+}
+.lock_b108r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b108e {
+  display: block;
+}
+.ower_b10-b108 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -343.5px;
+}
+.b-107 {
+  height: 611px;
+  left: 50%;
+  position: absolute;
+  top: 1091px;
+  width: 374px;
+  margin-left: 320px;
+}
+.lock_b107g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 40px;
+  width: 60px;
+  
+  margin-left: -167px;
+}
+.lock_b107r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b107e {
+  display: block;
+}
+.ower_b10-b107 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -187px;
+}
+.b-99 {
+  height: 625px;
+  left: 50%;
+  position: absolute;
+  top: 354px;
+  width: 594px;
+  margin-left: 108px;
+}
+.lock_b99g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 55px;
+  width: 60px;
+  
+  margin-left: -28px;
+}
+.lock_b99r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b99e {
+  display: block;
+}
+.ower_b10-b99 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -297px;
+}
+.b-98 {
+  height: 826px;
+  left: 50%;
+  position: absolute;
+  top: 3px;
+  width: 547px;
+  margin-left: -99px;
+}
+.lock_b98g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 111px;
+  width: 60px;
+  
+  margin-left: -213.5px;
+}
+.lock_b98r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b98e {
+  display: block;
+}
+.ower_b10-b98 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -273.5px;
+}
+.b-97 {
+  height: 811px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 652px;
+  margin-left: -669px;
+}
+.lock_b97g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 114px;
+  width: 60px;
+  
+  margin-left: -95px;
+}
+.lock_b97r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b97e {
+  display: block;
+}
+.ower_b10-b97 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -326px;
+}
+.coli {
+  float: left !important;
+  margin: 390px 0 0 -3px !important;
+  position: relative !important;
+  width: 392px !important;
+}
+.b-100 {
+  height: 589px;
+  margin: 0 auto;
+  position: relative;
+  right: 4px;
+  width: 374px;
+}
+.lock_b100g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 19px;
+  width: 60px;
+  
+  margin-left: -167px;
+}
+.lock_b100r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b100e {
+  display: block;
+}
+.ower_b10-b100 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -187px;
+}
+.b-106 {
+  height: 611px;
+  margin: 112px 0 0;
+  position: relative;
+  width: 392px;
+}
+.lock_b106g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 40px;
+  width: 60px;
+  
+  margin-left: -176px;
+}
+.lock_b106r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b106e {
+  display: block;
+}
+.ower_b10-b106 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -196px;
+}
+.coli-2 {
+  float: left !important;
+  margin: 389px 0 0 -9px !important;
+  position: relative !important;
+  width: 1156px !important;
+}
+.roww-2 {
+  position: relative !important;
+  z-index: 0 !important;
+}
+.b-101 {
+  float: left;
+  height: 589px;
+  margin: 1px 0 0;
+  position: relative;
+  width: 374px;
+  z-index: 128;
+}
+.lock_b101g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 19px;
+  width: 60px;
+  
+  margin-left: -167px;
+}
+.lock_b101r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b101e {
+  display: block;
+}
+.ower_b10-b101 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -187px;
+}
+.b-102 {
+  float: left;
+  height: 589px;
+  margin: 1px 0 0 -7px;
+  position: relative;
+  width: 372px;
+  z-index: 122;
+}
+.lock_b102g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 19px;
+  width: 60px;
+  
+  margin-left: -160px;
+}
+.lock_b102r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b102e {
+  display: block;
+}
+.ower_b10-b102 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -186px;
+}
+.b-103 {
+  float: left;
+  height: 590px;
+  margin: 0 0 0 3px;
+  position: relative;
+  width: 414px;
+  z-index: 116;
+}
+.lock_b103g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 20px;
+  width: 60px;
+  
+  margin-left: -178px;
+}
+.lock_b103r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b103e {
+  display: block;
+}
+.ower_b10-b103 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -207px;
+}
+.roww {
+  left: 6.5px !important;
+  margin: 3px auto 0 !important;
+  position: relative !important;
+  width: 1143px !important;
+}
+.b-105 {
+  float: left;
+  height: 611px;
+  margin: 109px 0 0;
+  position: relative;
+  width: 388px;
+}
+.lock_b105g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 40px;
+  width: 60px;
+  
+  margin-left: -171px;
+}
+.lock_b105r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b105e {
+  display: block;
+  z-index: 99999999999999 !important;
+}
+.ower_b10-b105 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -194px;
+}
+.b-104 {
+  float: right;
+  height: 720px;
+  position: relative;
+  width: 409px;
+}
+.lock_b104g-holder {
+  left: 50%;
+  padding: 8px 0 1px;
+  position: absolute;
+  top: 149px;
+  width: 60px;
+  z-index: 9999999999999 !important;
+  
+  margin-left: -181.5px;
+}
+.lock_b104r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/BBimages/lock_b108r.png) no-repeat;
+}
+.lock_b104e {
+  display: block;
+  z-index: 99999999999999999 !important;
+}
+.ower_b10-b104 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -204.5px;
+}

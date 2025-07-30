@@ -1,0 +1,115 @@
+.floor-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.floor-btn {
+  padding: 6px 10px;
+  font-size: 25px;
+  background-color: #6BA4CE;   /* მუქი ლურჯი */
+  color: #cbd9e4;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;/* ღია ცისფერი ტექსტი */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 0 #000;  /* შავი ჩრდილი */
+}
+
+.floor-btn:hover {
+  background-color: #114169;  /* hover-ზე ოდნავ მუქი ლურჯი */
+  color: #6CA5CF;             /* hover ტექსტი */
+  transform: translateY(-2px);
+}
+
+.floor-btn:active {
+  background-color: #0d3555;
+  color: #ffffff;
+  box-shadow: inset 0 0 5px #000000;
+}
+
+.floor-btn.active {
+  background-color: #114169;
+  color: #cbd9e4;
+  font-weight: bold;
+}
+
+.block-buttons-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.block-btn {
+  width: 150px;
+  height: 150px;
+  font-size: 25px;
+  background-color: #6BA4CE;
+  color: #6BA4CE;
+  border: 2px solid #bbb;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 0 #000;
+  padding: 0;
+}
+
+.block-btn:hover {
+  background-color: #114169;
+  color: #6CA5CF;
+}
+
+.block-btn:active {
+  background-color: #0d3555;
+  color: #ffffff;
+  box-shadow: inset 0 0 5px #000000;
+}
+
+.active-block {
+  background-color: #0d3555 !important;
+  color: #ffffff;
+  box-shadow: inset 0 0 5px #000000;
+}
+
+.nav-link{
+  font-size: 25px;
+    background-color: #6BA4CE;   /* მუქი ლურჯი */
+  color: #cbd9e4; 
+  border: 2px solid #bbb;
+}
+.swal2-container {
+  z-index: 9999999999999999999999999999999999999999999999 !important;
+  
+    position: fixed !important;
+
+}
+
+.swal2-popup {
+  z-index: 9999999999999999999999999999999999999999999999 !important;
+}
+
+@media (max-width: 992px) {
+  .floor-buttons {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    z-index: auto;
+  }
+
+  .floor-btn {
+    font-size: 18px;
+    padding: 5px 10px;
+    min-width: 80px;
+  }
+}
+

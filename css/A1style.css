@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/**
+* Eric Meyer's Reset CSS v2.0
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+
+.a-blocks {
+  position: relative;
+  transform-origin: top left;
+  height: auto;
+}
+.a-001 {
+  padding: 46px 0 61px;
+  position: relative;
+  width: 100%; /* 2966px / 2966px = 100% */
+  background: url(../img/ABimages/a-001-begr.png) no-repeat center 0;
+   transform: scale(0.9);
+ 
+}
+.l-constrained {
+  margin: 0 auto;
+  position: relative;
+  width: 2894px;
+}
+.a-m5 {
+  float: left;
+  height: 987px;
+  margin: 0 120px 0 0;
+  position: relative;
+  width: 730px;
+}
+.lock_am5g-holder {
+  left: 50%;
+  padding: 15px 0 2px;
+  position: absolute;
+  top: 37px;
+  width: 111px;
+  background: url(../img/ABimages/lock_am5g.png) no-repeat;
+  margin-left: -313px;
+}
+.lock_am5r-holder {
+  padding: 2px 0 0;
+  position: relative;
+  width: 111px;
+  background: url(../img/ABimages/lock_am5r.png) no-repeat;
+}
+.lock_am5e {
+  display: block;
+}
+.over_a-m5 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -365px;
+}
+.col {
+  float: left;
+  position: relative;
+  width: 2000px;
+}
+.a-m4 {
+  height: 1192px;
+  overflow: hidden;
+  position: relative;
+  width: 1206px;
+}
+.lock_am4g-holder {
+  left: 50%;
+  padding: 15px 0 2px;
+  position: absolute;
+  top: 37px;
+  width: 110px;
+  background: url(../img/ABimages/lock_am4g.png) no-repeat;
+  margin-left: -548px;
+}
+.lock_am4r-holder {
+  padding: 2px 0 0;
+  position: relative;
+  width: 110px;
+  background: url(../img/ABimages/lock_am4r.png) no-repeat;
+}
+.lock_am4e {
+  display: block;
+}
+.over_a-m4 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -603px;
+}
+.a-m3 {
+  height: 1164px;
+  left: 396px;
+  margin: -288px auto 0;
+  position: relative;
+  width: 1208px;
+}
+.lock_am3g-holder {
+  left: 50%;
+  padding: 15px 0 2px;
+  position: absolute;
+  top: 134px;
+  width: 111px;
+  background: url(../img/ABimages/lock_am4g.png) no-repeat;
+  margin-left: -230px;
+}
+.lock_am3r-holder {
+  padding: 2px 0 0;
+  position: relative;
+  width: 111px;
+  background: url(../img/ABimages/lock_am4r.png) no-repeat;
+}
+.lock_am3e {
+  display: block;
+}
+.over_a-m3 {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  margin-left: -604px;
+}

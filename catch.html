@@ -1,0 +1,108 @@
+ <div class="floor-buttons">
+  <button class="floor-btn active" data-floor="11">11 Floor</button>
+  <button class="floor-btn" data-floor="10">10 Floor</button>
+  <button class="floor-btn" data-floor="9">9 Floor</button>
+  <button class="floor-btn" data-floor="8">8 Floor</button>
+  <button class="floor-btn" data-floor="7">7 Floor</button>
+  <button class="floor-btn" data-floor="6">6 Floor</button>
+  <button class="floor-btn" data-floor="5">5 Floor</button>
+  <button class="floor-btn" data-floor="4">4 Floor</button>
+  <button class="floor-btn" data-floor="3">3 Floor</button>
+  <button class="floor-btn" data-floor="2">2 Floor</button>
+  <button class="floor-btn" data-floor="1">1 Floor</button>
+  <button class="floor-btn" data-floor="0">0 Floor</button>
+</div>
+
+        </div>
+
+         <div style="z-index: 99999999999999999 !important;" class="wrapper">
+<div class="block-buttons-vertical">
+  <button class="block-btn active-block" data-block="a" title="A BLOCK">A Block</button>
+  <a href="B-Block.html"><button class="block-btn" data-block="b" title="B BLOCK">b Block</button></a>
+  <a href="C-Block.html"><button class="block-btn" data-block="c" title="C BLOCK">c Block</button></a>
+</div>
+
+
+</div>
+<style>
+    
+.floor-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  position: absolute; /* ან static თუ სჭირდება კონტექსტი */
+  top: 500px;
+  left: 50px;
+  z-index: 1000;
+}
+
+.floor-btn {
+  padding: 6px 10px;
+  font-size: 70px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.floor-btn.active {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+.block-buttons-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.block-btn {
+  width: 250px;
+  height: 150px;
+  font-size: 60px;
+  background-color: #ddd;
+  border: 2px solid #bbb;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 0;
+}
+
+.block-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.active-block {
+  background-color: orange;
+  border-color: #e08e00;
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.6);
+}
+</style>
+
+
+
+
+
+ <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const locks = document.querySelectorAll('.lock-toggle');
+
+        locks.forEach(function (lock) {
+          lock.addEventListener('click', function () {
+            const green = this.dataset.green;
+            const yellow = this.dataset.yellow;
+            if (this.src.includes("lock_cm2g.png")) {
+              this.src = yellow;
+            } else {
+              this.src = green;
+            }
+          });
+        });
+      });
+    </script>
+
+
+ბინა წარმატებით დაიჯავშნა. 
+ჯავშანი აქტიურია 48 სთ ის განმავლობაში. ჯავშნის მეტი დროით გასახანგრძლივებლად ან შესაძენად დაგვიკავშირდით ოფისის ცხელ ხაზზე

@@ -1,0 +1,39 @@
+.c-89, .c-90, .c-91, .c-92, .c-93, .c-94, .c-95, .c-96, .c-97, .c-98, .c-99 {
+  background: none !important;
+  position: relative;
+}
+
+/* hover-ზე ვასმენთ შესაბამის overlay-ს */
+.c-89:hover {
+  background: url(../img/CBimages/ower-c89.png) no-repeat !important;
+}
+.c-90:hover {
+  background: url(../img/CBimages/ower-c90.png) no-repeat !important;
+}
+.c-91:hover {
+  background: url(../img/CBimages/ower-c91.png) no-repeat !important;
+}
+.c-92:hover {
+  background: url(../img/CBimages/ower-c92.png) no-repeat !important;
+}
+.c-93:hover {
+  background: url(../img/CBimages/ower-c93.png) no-repeat !important;
+}
+.c-94:hover {
+  background: url(../img/CBimages/ower-c94.png) no-repeat !important;
+}
+.c-95:hover {
+  background: url(../img/CBimages/ower-c95.png) no-repeat !important;
+}
+.c-96:hover {
+  background: url(../img/CBimages/ower-c96.png) no-repeat !important;
+}
+.c-97:hover {
+  background: url(../img/CBimages/ower-c97.png) no-repeat !important;
+}
+.c-98:hover {
+  background: url(../img/CBimages/ower-c98.png) no-repeat !important;
+}
+.c-99:hover {
+  background: url(../img/CBimages/ower-c99.png) no-repeat !important;
+}

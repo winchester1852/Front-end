@@ -1,0 +1,359 @@
+@charset "UTF-8";
+/**
+* Eric Meyer's Reset CSS v2.0
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+
+.c-blocks {
+  position: relative;
+}
+.c-011 {
+  padding: 20px 0 13px;
+  position: relative;
+  width: 100%; /* 3144px / 3144px = 100% */
+  background: url(../img/CBimages/C11images/begr-c11.png) no-repeat center 0;
+  
+}
+.l-constrained {
+  margin: 0 auto;
+  padding: 0 0 0 9px;
+  position: relative;
+  width: 3128px;
+}
+.c-100 {
+  float: left;
+  margin: 1px 0 0;
+  padding: 111px 35px 1147px;
+  position: relative;
+  width: 424px;
+  background: url(../img/CBimages/C11images/ower-c100.png) no-repeat;
+}
+.lock_c100g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 147px;
+  width: 60px;
+}
+.lock_c100r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/C11images/lock_c100r.png) no-repeat;
+}
+.lock_c100e {
+  display: block;
+}
+.c-101 {
+  float: left;
+  margin: 1px 0 0 -21px;
+  padding: 111px 38px 410px;
+  position: relative;
+  width: 375px;
+  background: url(../img/CBimages/C11images/ower-c101.png) no-repeat;
+}
+.lock_c101g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 119.5px;
+  width: 60px;
+}
+.lock_c101r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/C11images/lock_c101r.png) no-repeat;
+}
+.lock_c101e {
+  display: block;
+}
+.col {
+  float: left;
+  margin: 1px 0 0 2px;
+  position: relative;
+  width: 619px;
+}
+.c-102 {
+  margin: 0 auto;
+  padding: 111px 43px 409px;
+  position: relative;
+  width: 617px;
+  background: url(../img/CBimages/C11images/ower-c102.png) no-repeat;
+}
+.lock_c102g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 235.5px;
+  width: 60px;
+}
+.lock_c102r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/C11images/lock_c102r.png) no-repeat;
+}
+.lock_c102e {
+  display: block;
+}
+.c-107 {
+  margin: 109px 0 0;
+  padding: 46px 0 497px;
+  position: relative;
+  width: 618px;
+  background: url(../img/CBimages/C11images/ower-c107.png) no-repeat;
+}
+.lock_c107g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 174px;
+  width: 60px;
+}
+.lock_c107r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/C11images/lock_c107r.png) no-repeat;
+}
+.lock_c107e {
+  display: block;
+}
+.col-2 {
+  float: left;
+  margin: 1px 0 0 5px;
+  position: relative;
+  width: 571px;
+}
+.c-103 {
+  padding: 111px 43px 409px;
+  position: relative;
+  width: 565px;
+  background: url(../img/CBimages/C11images/ower-c103.png) no-repeat;
+}
+.lock_c103g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 209.5px;
+  width: 60px;
+}
+.lock_c103r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/C11images/lock_c103r.png) no-repeat;
+}
+.lock_c103e {
+  display: block;
+}
+.c-106 {
+  margin: 110px 0 0;
+  padding: 49px 43px 494px;
+  position: relative;
+  width: 571px;
+  background: url(../img/CBimages/C11images/ower-c106.png) no-repeat;
+}
+.lock_c106g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 212.5px;
+  width: 60px;
+}
+.lock_c106r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/C11images/lock_c106r.png) no-repeat;
+}
+.lock_c106e {
+  display: block;
+}
+.col-3 {
+  float: left;
+  margin: 0 0 0 3px;
+  position: relative;
+  width: 1141px;
+}
+.c-104 {
+  overflow: hidden;
+  padding: 112px 43px 409px;
+  position: relative;
+  width: 819px;
+  background: url(../img/CBimages/C11images/ower-c104.png) no-repeat;
+}
+.lock_c104g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 336.5px;
+  width: 60px;
+}
+.lock_c104r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/C11images/lock_c104r.png) no-repeat;
+}
+.lock_c104e {
+  display: block;
+}
+.c-105 {
+  left: 178px;
+  margin: -107px auto 0;
+  padding: 265px 43px 495px;
+  position: relative;
+  width: 785px;
+  background: url(../img/CBimages/C11images/ower-c105.png) no-repeat;
+}
+.lock_c105g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 319.5px;
+  width: 60px;
+}
+.lock_c105r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/C11images/lock_c105r.png) no-repeat;
+}
+.lock_c105e {
+  display: block;
+}

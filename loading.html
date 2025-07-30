@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>იტვირთება...</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .logo {
+      width: 320px;
+      height: auto;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .loader {
+      border: 8px solid #2c2c2c;
+      border-top: 8px solid #00ffc8;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      animation: spin 1s linear infinite;
+      margin: 30px 0;
+    }
+
+    .loader-text {
+      font-size: 28px;
+      color: #aaa;
+      text-align: center;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ჩასვი შენს პროექტში შესაბამისი logo.png -->
+  <img src="img/logo.png" alt="Logo" class="logo" />
+ <!-- <div class="loader-text">Your place...</div> -->
+ 
+
+  <script>
+    // 3 წამის შემდეგ გადადის მთავარ გვერდზე
+    setTimeout(() => {
+      window.location.href = "A-block.html"; // შეცვალე საჭირო ბმულით
+    }, 3000);
+  </script>
+
+</body>
+</html>

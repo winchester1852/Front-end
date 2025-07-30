@@ -1,0 +1,457 @@
+@charset "UTF-8";
+/**
+* Eric Meyer's Reset CSS v2.0
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+
+.c-blocks {
+  position: relative;
+  
+}
+.c-010 {
+  padding: 23px 0 7px;
+  position: relative;
+  width: 100%; /* 3146px / 3146px = 100% */
+  background: url(../img/CBimages/begr-c010.png) no-repeat center 0;
+  
+}
+.l-constrained {
+  margin: 0 auto;
+  padding: 0 0 0 11px;
+  position: relative;
+  width: 3130px;
+}
+.l-constrained > * {
+  float: left;
+  margin: 0 3.55px 0 0;
+}
+.l-constrained > *:last-child {
+  margin-right: 0 !important;
+}
+.col-3 {
+  position: relative;
+  width: 778px;
+  margin-top: 1px !important;
+}
+.row-3 {
+  overflow: hidden;
+  position: relative;
+  width: 778px;
+}
+.c-89 {
+  float: left;
+  padding: 111px 35px 403px;
+  position: relative;
+  width: 401px;
+  background: url(../img/CBimages/ower-c89.png) no-repeat;
+}
+.lock_c89g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 135.5px;
+  width: 60px;
+  
+}
+.lock_c89r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c89e {
+  display: block;
+}
+.c-90 {
+  float: right;
+  padding: 111px 38px 410px;
+  position: relative;
+  width: 375px;
+  background: url(../img/CBimages/ower-c90.png) no-repeat;
+}
+.lock_c90g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 119.5px;
+  width: 60px;
+  
+}
+.lock_c90r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c90e {
+  display: block;
+}
+.c-99 {
+  margin: -6px 0 0;
+  padding: 162px 35px 501px;
+  position: relative;
+  width: 424px;
+  background: url(../img/CBimages/ower-c99.png) no-repeat;
+}
+.lock_c99g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 147px;
+  width: 60px;
+  
+}
+.lock_c99r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c99e {
+  display: block;
+}
+.col-4 {
+  position: relative;
+  width: 417px;
+  margin-top: 1px !important;
+}
+.c-91 {
+  margin: 0 auto;
+  padding: 111px 43px 409px;
+  position: relative;
+  width: 415px;
+  background: url(../img/CBimages/ower-c91.png) no-repeat;
+}
+.lock_c91g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 134.5px;
+  width: 60px;
+  
+}
+.lock_c91r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c91e {
+  display: block;
+}
+.c-98 {
+  margin: 109px 0 0;
+  padding: 46px 0 497px;
+  position: relative;
+  width: 417px;
+  background: url(../img/CBimages/ower-c98.png) no-repeat;
+}
+.lock_c98g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 73.5px;
+  width: 60px;
+  
+}
+.lock_c98r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c98e {
+  display: block;
+}
+.col-5 {
+  position: relative;
+  width: 385px;
+  margin-top: 1px !important;
+}
+.c-92 {
+  margin: 0 auto;
+  padding: 111px 43px 409px;
+  position: relative;
+  width: 381px;
+  background: url(../img/CBimages/ower-c92.png) no-repeat;
+}
+.lock_c92g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 117.5px;
+  width: 60px;
+  
+}
+.lock_c92r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c92e {
+  display: block;
+}
+.c-97 {
+  margin: 109px 0 0;
+  padding: 46px 45px 497px;
+  position: relative;
+  width: 385px;
+  background: url(../img/CBimages/ower-c97.png) no-repeat;
+}
+.lock_c97g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 117.5px;
+  width: 60px;
+  
+}
+.lock_c97r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c97e {
+  display: block;
+}
+.col {
+  position: relative;
+  width: 383px;
+  margin-top: 1px !important;
+}
+.c-93 {
+  margin: 0 auto;
+  padding: 111px 43px 409px;
+  position: relative;
+  width: 379px;
+  background: url(../img/CBimages/ower-c93.png) no-repeat;
+}
+.lock_c93g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 116.5px;
+  width: 60px;
+  
+}
+.lock_c93r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c93e {
+  display: block;
+}
+.c-96 {
+  margin: 110px 0 0;
+  padding: 49px 35px 494px;
+  position: relative;
+  width: 383px;
+  background: url(../img/CBimages/ower-c96.png) no-repeat;
+}
+.lock_c96g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 126.5px;
+  width: 60px;
+  
+}
+.lock_c96r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c96e {
+  display: block;
+}
+.col-2 {
+  position: relative;
+  width: 1141px;
+}
+.c-94 {
+  overflow: hidden;
+  padding: 112px 43px 409px;
+  position: relative;
+  width: 819px;
+  background: url(../img/CBimages/ower-c94.png) no-repeat;
+}
+.lock_c94g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 336.5px;
+  width: 60px;
+  
+}
+.lock_c94r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c94e {
+  display: block;
+}
+.c-95 {
+  left: 178px;
+  margin: -107px auto 0;
+  padding: 265px 43px 495px;
+  position: relative;
+  width: 785px;
+  background: url(../img/CBimages/ower-c95.png) no-repeat;
+}
+.lock_c95g-holder {
+  margin: 0 auto;
+  padding: 8px 0 1px;
+  position: relative;
+  right: 319.5px;
+  width: 60px;
+  
+}
+.lock_c95r-holder {
+  padding: 1px 0 0;
+  position: relative;
+  width: 60px;
+  background: url(../img/CBimages/lock_c89r.png) no-repeat;
+}
+.lock_c95e {
+  display: block;
+}
